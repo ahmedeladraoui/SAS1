@@ -1,5 +1,5 @@
 const prompt = require('prompt-sync')()
-let note = Number(prompt("taper votre note: "))
+let note = +prompt("taper votre note: ")
 if(note > 20 || note <0){
     console.log("taper notre note")
 }else{

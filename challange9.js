@@ -7,7 +7,7 @@ console.log(`
 4 → Taxi
 5 → Vélo
 `)
-const choix = Number(prompt("enter votre choix: "));
+const choix = +prompt("enter votre choix: ");
 let resl;
 
 switch(choix){

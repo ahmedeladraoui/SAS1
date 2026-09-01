@@ -9,7 +9,7 @@ console.log(`
 7 → Dimanche
 `)
 let choix;
-let jr = Number(prompt("Enter le nombre: "))
+let jr = +prompt("Enter le nombre: ")
 
 switch(jr){
     case 1: choix = "jour: lundi";break;

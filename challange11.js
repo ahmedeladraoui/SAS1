@@ -5,7 +5,7 @@ console.log(`
 3 → Tacos
 4 → Salade
 `)
-let chois = Number(prompt("Entrer votre chois: "));
+let chois = +prompt("Entrer votre chois: ");
 
 let plt;
 let prx;
@@ -19,7 +19,7 @@ switch(chois){
     default: chek = false;
 }
 if(chek){
-    let qnt = Number(prompt("la quantite: "))
+    let qnt = +prompt("la quantite: ")
     let total = qnt*prx;
     let totalPay = 0;
 

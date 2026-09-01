@@ -1,8 +1,8 @@
 const prompt = require('prompt-sync')();
 
-let nbr1 = Number(prompt("Enter le premier nombre: "));
+let nbr1 = +prompt("Enter le premier nombre: ");
 let oprt = prompt("entrer l'opiration (+ - / *): ");
-let nbr2 = Number(prompt("entrer le deuxieme nombre: "))
+let nbr2 = +prompt("entrer le deuxieme nombre: ")
 let resl;
 switch(oprt){
     case '+': resl = nbr1 + nbr2 ;break;

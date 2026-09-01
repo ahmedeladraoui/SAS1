@@ -6,7 +6,7 @@ console.log(`
 4 → Se déconnecter\n
 `)
 let menu;
-let choix = Number(prompt("Entrer votre choix: "))
+let choix = +prompt("Entrer votre choix: ")
 switch(choix){
     case 1: menu = 'Ouverture votre profile';break;
     case 2: menu = 'Ouverture des parametres';break;
