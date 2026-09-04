@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const prompt = require('prompt-sync')()
 let note = prompt("taper votre note: ")
 if(note >20 || note < 0){
@@ -10,3 +11,13 @@ if(note >20 || note < 0){
         
     }
 }
+=======
+const prompt = require("prompt-sync")();
+
+let nbr = +prompt("Taper nombre: ");
+let somme = 0;
+for(let i = 1; i <= nbr; i++){
+    somme += i
+}
+console.log("Somme  = ",somme)
+>>>>>>> a48c0f2 (terminer)

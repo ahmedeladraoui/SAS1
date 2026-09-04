@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const prompt = require('prompt-sync')();
 
 let nbr1 = +prompt("Enter le premier nombre: ");
@@ -12,3 +13,15 @@ switch(oprt){
     default: resl = 'Opérateur invalide'
 }
 console.log(resl)
+=======
+const prompt = require("prompt-sync")();
+
+let nbr = +prompt("Taper le nombre de mission: ");
+
+let i = 1;
+
+while(i<=nbr){
+    console.log(`mession ${i} => score: ${i*100}`)
+    i++
+}
+>>>>>>> a48c0f2 (terminer)

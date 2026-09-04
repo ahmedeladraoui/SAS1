@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const prompt = require('prompt-sync')();
 console.log(`
 1 → Afficher le profil\n
@@ -15,3 +16,18 @@ switch(choix){
     default: menu = 'Choix invalide';break;
 }
 console.log(menu)
+=======
+const prompt = require("prompt-sync")();
+
+let nbr = +prompt("taper un nombre: ")
+
+let stop = 0
+while(true){
+    if(stop <=nbr){
+        console.log(nbr - stop)
+        stop++
+    }else{
+        break
+    }
+}
+>>>>>>> a48c0f2 (terminer)

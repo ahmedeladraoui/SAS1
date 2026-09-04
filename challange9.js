@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const prompt = require('prompt-sync')();
 
 console.log(`
@@ -19,3 +20,17 @@ switch(choix){
     default:resl = 'Transport invalide';
 }
 console.log(resl)
+=======
+const prompt = require("prompt-sync")();
+
+let base = +prompt("Entrer la base: ")
+let exp = +prompt("entrer la exposant: ")
+let resl = 1
+let i = 0
+while(i<exp){
+    resl = resl * base
+    i++
+
+}
+console.log("resultat: ",resl)
+>>>>>>> a48c0f2 (terminer)

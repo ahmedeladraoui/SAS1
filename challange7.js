@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const prompt = require('prompt-sync')();
 console.log(`
 1 → Lundi\n
@@ -22,3 +23,13 @@ switch(jr){
     default: choix = "numero invalide";break;
 }
 console.log(choix)
+=======
+let i = 1;
+while(true){
+    if(i ** 2 >100){
+        console.log("Résultat :", i)
+        break
+    }
+    i++
+}
+>>>>>>> a48c0f2 (terminer)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const prompt = require('prompt-sync')();
 console.log(`
 1 → Pizza
@@ -42,3 +43,14 @@ if(chek){
 }else{
     console.log("votre chois invalide")
 }
+=======
+const prompt = require("prompt-sync")()
+
+let number = +prompt("Taper un nombre: ")
+let nbr = number
+let resl = 1
+for(let i = 1; i <= nbr; i++){
+    resl *= i
+}
+console.log(`${nbr}! = ${resl}`)
+>>>>>>> a48c0f2 (terminer)
